@@ -1,6 +1,6 @@
 import { lnko2 } from "../fuggvenyek.js";
 
-function lnkoTeszt2(params) {
+export function lnkoTeszt2() {
     const tesztEsetLista2=[{
             n:0,
             vart:0,
@@ -32,7 +32,7 @@ function lnkoTeszt2(params) {
         let eredmeny2 = lnko2(tesztEsetLista2[index].n);
         console.assert(
             eredmeny2 === tesztEsetLista2[index].vart,
-            `a= ${tesztEsetLista2[index].n}, elvárt: ${tesztEsetLista2[index].vart}, kapott ${eredmeny2}`,
+            `n= ${tesztEsetLista2[index].n}, elvárt: ${tesztEsetLista2[index].vart}, kapott ${eredmeny2}`,
             tesztEsetLista2[index].szoveg,
         ); 
         }

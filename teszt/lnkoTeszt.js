@@ -1,6 +1,6 @@
 import { lnko } from "../fuggvenyek.js";
 
-function lnkoTeszt() {
+export function lnkoTeszt() {
     /* a többszöröse b nek */
     let a = 18
     let b = 3

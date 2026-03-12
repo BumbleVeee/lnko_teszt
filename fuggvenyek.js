@@ -21,3 +21,11 @@ export function lnko2(n) {
     }
     return z;
 }
+
+export function lnko3(szam) {
+    let i = 2;
+    while (i <= Math.sqrt(szam) && szam % i !== 0) {
+        i++;
+    }
+    return i > Math.sqrt(szam);
+}
